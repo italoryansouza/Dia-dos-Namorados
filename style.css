@@ -1,0 +1,94 @@
+/* Fonte importada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap');
+
+/* Estilos globais */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffe6e6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+    color: #b22222;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+iframe {
+    width: 100%;
+    max-width: 300px;
+    height: 169px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+    color: #b22222;
+    margin: 20px 0;
+}
+
+#cora {
+    width: 80px;
+    transition: transform 0.3s ease;
+}
+
+#cora:hover {
+    transform: scale(1.1);
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+main {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Estilos para telas maiores */
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 3em;
+    }
+
+    iframe {
+        max-width: 560px;
+        height: 315px;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    #cora {
+        width: 100px;
+    }
+}
